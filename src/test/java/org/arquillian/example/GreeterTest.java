@@ -29,4 +29,11 @@ public class GreeterTest {
                 greeter.createGreeting("Earthling"));
         greeter.greet(System.out, "Earthling");
     }
+
+    @Test
+    public void should_create_greeting2() {
+        Assert.assertEquals("Hello, World!",
+                greeter.createGreeting("World"));
+        greeter.greet(System.out, "World");
+    }
 }
