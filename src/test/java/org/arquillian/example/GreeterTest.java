@@ -36,19 +36,4 @@ public class GreeterTest {
                 greeter.createGreeting("World"));
         greeter.greet(System.out, "World");
     }
-<<<<<<< HEAD
-    
-    @Test
-    public void should_create_greeting_fail() {
-        Assert.assertEquals("Hello, World!",
-                greeter.createGreeting("to all"));
-=======
-
-    @Test
-    public void should_create_greeting_fail() {
-        Assert.assertEquals("Hello, World!",
-                greeter.createGreeting("World"));
->>>>>>> 0b9c0f1c20346e48e977754fc2c17d9da0560f61
-        greeter.greet(System.out, "to all");
-    }
 }
